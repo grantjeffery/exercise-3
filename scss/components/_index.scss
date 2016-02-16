@@ -1,0 +1,98 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	font-family: sans-serif;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #0F0F0F;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+h1 {
+	font-family: $vollkorn;
+	color: $red;
+	text-transform: uppercase;
+}
+
+.masthead {
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+
+h2 {
+	font-family: 'Vollkorn', serif;
+	color: #A83535;
+	text-align: auto;
+	text-transform: uppercase;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.island {
+	 border-radius: 15px;
+	 
+}
+
+.island:hover { 
+    border: solid;
+    color: #A83535;
+    z-index:1;
+}
+
+.flex {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-flex {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+i{
+	font-size: 4em;
+	color: #A83535;
+}
+
+p{
+	text-decoration: none;
+	color: #fff;
+}
+
+.overlay2 {
+	position: relative;
+}
+
+.overlay {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	bottom: -.5em;
+
+}
+
+
+
