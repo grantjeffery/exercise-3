@@ -5,7 +5,7 @@
   left:9px;
   height:36px;
   width:36px;
-  z-index:1;
+  z-index:3;
   cursor:pointer;
     ul {
       transition:all .05s;
@@ -60,9 +60,9 @@
     transition:all .05s;
     position:relative;
     left:0;
-    z-index:2;
+    z-index:3;
   }
-  a {
+  .amenu {
     transition:all .15s;
     text-decoration:none;
     color:white;

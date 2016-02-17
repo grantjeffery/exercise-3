@@ -1059,7 +1059,7 @@ p {
   left: 9px;
   height: 36px;
   width: 36px;
-  z-index: 1;
+  z-index: 3;
   cursor: pointer;
 }
 
@@ -1119,10 +1119,10 @@ p {
   transition: all .05s;
   position: relative;
   left: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
-.menu-expanded a {
+.menu-expanded .amenu {
   transition: all .15s;
   text-decoration: none;
   color: white;
@@ -1131,7 +1131,7 @@ p {
   padding: 5px;
 }
 
-.menu-expanded a:hover {
+.menu-expanded .amenu:hover {
   transition: all .15s;
   letter-spacing: 2px;
   border: 1px solid rgba(255, 255, 255, 0.15);
