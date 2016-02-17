@@ -987,7 +987,7 @@ body {
 }
 
 h1 {
-  font-family: Vollkorn, serif;
+  font-family: "$vollkorn";
   color: #A83535;
   text-transform: uppercase;
 }
@@ -998,7 +998,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Vollkorn', serif;
+  font-family: "$vollkorn", serif;
   color: #A83535;
   text-align: auto;
   text-transform: uppercase;
@@ -1006,6 +1006,7 @@ h2 {
 
 a {
   text-decoration: none;
+  font-family: "$vollkorn";
 }
 
 .island {
