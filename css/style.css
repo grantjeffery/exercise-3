@@ -987,7 +987,7 @@ body {
 }
 
 h1 {
-  font-family: "$vollkorn";
+  font-family: Vollkorn, serif;
   color: #A83535;
   text-transform: uppercase;
 }
@@ -998,7 +998,7 @@ h1 {
 }
 
 h2 {
-  font-family: "$vollkorn", serif;
+  font-family: Vollkorn, serif, serif;
   color: #A83535;
   text-align: auto;
   text-transform: uppercase;
@@ -1006,7 +1006,7 @@ h2 {
 
 a {
   text-decoration: none;
-  font-family: "$vollkorn";
+  font-family: Vollkorn, serif;
 }
 
 .island {
@@ -1050,6 +1050,10 @@ p {
   position: absolute;
   z-index: 1;
   bottom: -.5em;
+}
+
+.float {
+  float: right;
 }
 
 .menu-collapsed {
@@ -1127,7 +1131,7 @@ p {
   text-decoration: none;
   color: white;
   font-size: 2em;
-  font-family: '$vollkorn', sans-serif;
+  font-family: Vollkorn, serif, sans-serif;
   padding: 5px;
 }
 
